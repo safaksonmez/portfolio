@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "about": "Hakkımda",
+    "work": "Projeler",
+    "skills": "Yetenekler",
+    "experience": "Deneyim",
+    "writing": "Yazılar",
+    "contact": "İletişim",
+    "downloadCV": "CV İndir"
+  },
+  "hero": {
+    "name": "Şafak Sönmez",
+    "title": "Kıdemli Backend Mühendisi",
+    "subtitle": "Fintech · Gerçek Zamanlı Sistemler · Dağıtık Mimari",
+    "tag": "Backend odaklı. Full-stack yetkin.",
+    "intro": "Backend sistemleri uçtan uca tasarlayıp inşa ediyorum — mimariden implementasyona, dağıtımdan production operasyonlarına kadar. Odağım fintech, ticaret platformları, ödeme sistemleri ve gerçek zamanlı dağıtık servisler.",
+    "cta": {
+      "contact": "İletişime Geç",
+      "cv": "CV İndir",
+      "work": "Projeleri Gör"
+    }
+  },
+  "about": {
+    "sectionLabel": "Hakkımda",
+    "heading": "Baskı altında ayakta duran sistemler inşa ediyorum",
+    "body1": "Çalışmalarım yüksek hacimli işlemleri karşılayan API'lar, gerçek zamanlı olayları işleyen dağıtık servisler ve doğruluğun tartışılmaz olduğu fintech altyapısı üzerinde yoğunlaşıyor.",
+    "body2": "Tam yaşam döngüsüne sahibim: sistem tasarımı, implementasyon, altyapı, gözlemlenebilirlik ve production operasyonları. .NET, Node.js ve Go ile çalışıyorum; regüle, gecikmeye duyarlı ortamlarda dağıtık sistem inşa ederken önemli olan trade-off'ları anlıyorum.",
+    "body3": "Ürün gerektirdiğinde full-stack da teslim ederim. Ancak en güçlü katkım her zaman sistem ve backend katmanında — güvenilirlik, ölçeklenebilirlik ve uzun vadeli sürdürülebilirlik için tasarım yapıyorum.",
+    "stats": {
+      "years": "5+",
+      "yearsLabel": "Yıl Mühendislik",
+      "products": "3",
+      "productsLabel": "Production Sistemi",
+      "domains": "2",
+      "domainsLabel": "Temel Alan"
+    },
+    "domains": {
+      "title": "Uzmanlık Alanları",
+      "items": ["Fintech", "Ticaret Sistemleri", "Ödeme Altyapısı", "Gerçek Zamanlı Veri", "Dağıtık Mimari", "Telemetri & GPS"]
+    }
+  },
+  "work": {
+    "sectionLabel": "Seçili Çalışmalar",
+    "heading": "Vaka Çalışmaları",
+    "subheading": "Tasarladığım, inşa ettiğim ve production'da yönettiğim sistemlerden seçkiler.",
+    "projects": [
+      {
+        "id": "trading-platform",
+        "title": "Self-Servis Ticaret Platformu",
+        "domain": "Fintech · Ticaret",
+        "problem": "Bir fintech operatörü, MT5 entegrasyonu, çok sağlayıcılı ödemeler ve KYC uyumluluk akışlarıyla canlı ticaret operasyonlarını yöneten, yüksek güvenilirlik gereksinimleri olan ölçeklenebilir bir self-servis platform ihtiyacı duyuyordu.",
+        "built": "Backend mimarisini sıfırdan tasarlayıp uyguladım. MetaTrader 5 entegre ticaret yürütme servisleri, ödeme sağlayıcı bağlantıları ve KYC doğrulama pipeline'ları geliştirdim. Socket.IO ile gerçek zamanlı event stream'leri ve RabbitMQ ile arka plan iş orkestrasyonu uyguladım.",
+        "highlights": [
+          "Emir yaşam döngüsü yönetimiyle MT5 entegrasyonu",
+          "Mutabakat içeren çok sağlayıcılı ödeme yönlendirmesi",
+          "Denetim izi ile KYC akış orkestrasyonu",
+          "WebSocket üzerinden gerçek zamanlı hesap ve pozisyon akışı",
+          "Docker ve Kubernetes ile container tabanlı dağıtım"
+        ],
+        "impact": "Canlı ticaret operasyonlarına hizmet eden production sistemi. Mimari yatay ölçekleme ve çok bölgeli dağıtım hazırlığını destekliyor.",
+        "stack": [".NET", "ASP.NET Core", "MSSQL", "Redis", "RabbitMQ", "Socket.IO", "Docker", "Kubernetes", "Nginx"]
+      },
+      {
+        "id": "realtime-telemetry",
+        "title": "Gerçek Zamanlı Telemetri & Filo Takip Backend'i",
+        "domain": "Gerçek Zamanlı Sistemler · IoT",
+        "problem": "Bir filo yönetim ürünü, Teltonika GPS cihazlarından yüksek hacimde ikili telemetri verisini alabilen, konum ve rota verilerini gerçek zamanlı işleyen ve birden fazla istemci uygulamasına sunabilen bir backend gerektiriyordu.",
+        "built": "İkili protokol ayrıştırma, coğrafi konum işleme ve rota oluşturma mantığı dahil telemetri alım pipeline'ını tasarladım. Go ve Node.js ile servisler arası iletişim için RabbitMQ ve gRPC kullanan dağıtık backend servisleri geliştirdim.",
+        "highlights": [
+          "İkili Teltonika protokol ayrıştırıcı",
+          "Yüksek throughput telemetri alım pipeline'ı",
+          "Gerçek zamanlı coğrafi konum ve rota hesaplama",
+          "gRPC tabanlı servisler arası iletişim",
+          "Aktif araç takibi için Redis destekli sıcak durum"
+        ],
+        "impact": "Kurumsal müşterilere hizmet eden büyüyen filo ürünü için takip sağladı. Bağlı istemciler genelinde canlı araç pozisyon güncellemeleri için milisaniye altı gecikme.",
+        "stack": ["Go", "Node.js", "MongoDB", "Redis", "RabbitMQ", "gRPC", "MySQL", "Docker"]
+      },
+      {
+        "id": "payment-infra",
+        "title": "Ödeme & KYC Entegrasyon Katmanı",
+        "domain": "Fintech · Ödemeler",
+        "problem": "Finansal ürünler, üçüncü taraf ödeme sağlayıcıları ve kimlik doğrulama servisleriyle güvenilir, denetlenebilir entegrasyonlar gerektirir. Bu akışlardaki entegrasyon hataları veya veri tutarsızlıkları doğrudan finansal ve uyumluluk riski taşır.",
+        "built": "Sağlayıcı soyutlama, idempotent işlem yönetimi ve event-sourced denetim izleriyle modüler bir ödeme entegrasyon katmanı geliştirdim. Belge doğrulama workflow'ları ve uyumluluk durum makineleri ile KYC orkestrasyonu uyguladım.",
+        "highlights": [
+          "Sağlayıcıdan bağımsız ödeme soyutlama katmanı",
+          "Idempotent işlem işleme",
+          "En az bir kez teslimat garantisi ile webhook alımı",
+          "Belge yaşam döngüsü yönetimi ile KYC durum makinesi",
+          "Yasal izlenebilirlik için tam denetim günlüğü"
+        ],
+        "impact": "Platform, temel servis değişikliği olmadan birden fazla ödeme sağlayıcısı ve KYC satıcısı ekleyebildi. Production'da sıfır kurtarılamayan işlem hatası.",
+        "stack": [".NET", "ASP.NET Core", "MSSQL", "Entity Framework", "RabbitMQ", "Redis", "Docker"]
+      },
+      {
+        "id": "serverless-api",
+        "title": "Serverless API Platformu",
+        "domain": "Bulut Altyapısı · Backend",
+        "problem": "Bir ürün ekibi, AWS yönetilen servisleriyle sıkı entegrasyon sağlayabilen, maliyet etkin ve düşük operasyonel yüklü bir backend API'sine ihtiyaç duyuyordu.",
+        "built": "AWS Lambda ile API Gateway, birincil depolama için DynamoDB ve asenkron işleme için event-driven mimari kullanan serverless backend geliştirdim. Fonksiyon tasarımı, cold start optimizasyonu ve servis entegrasyon pattern'lerine odaklandım.",
+        "highlights": [
+          "Cold-start azaltma ile Lambda fonksiyon tasarımı",
+          "DynamoDB erişim pattern'leri ve tek tablo tasarımı",
+          "İstek doğrulama ile API Gateway entegrasyonu",
+          "Event-driven asenkron işleme",
+          "Kod olarak altyapı dağıtımı"
+        ],
+        "impact": "Müşteri arayüzü ürün özelliklerine hizmet eden production API. Yönetilen VM dağıtımlarına kıyasla düşük operasyonel yük ve kullandıkça öde ölçekleme.",
+        "stack": ["Node.js", "AWS Lambda", "API Gateway", "DynamoDB", "AWS SNS/SQS"]
+      }
+    ],
+    "labels": {
+      "problem": "Problem",
+      "built": "Ne İnşa Ettim",
+      "highlights": "Teknik Öne Çıkanlar",
+      "impact": "Etki",
+      "stack": "Teknoloji"
+    }
+  },
+  "skills": {
+    "sectionLabel": "Yetenekler",
+    "heading": "Teknoloji Yığını",
+    "subheading": "Temel yetenekler, fonksiyona göre gruplandırılmış.",
+    "groups": [
+      {
+        "id": "languages",
+        "label": "Diller & Framework'ler",
+        "items": [".NET / ASP.NET Core", "Node.js", "Golang", "Python", "Laravel", "React / Next.js"]
+      },
+      {
+        "id": "backend",
+        "label": "Backend & Mimari",
+        "items": ["REST API Tasarımı", "gRPC", "WebSockets", "Event-Driven Mimari", "Microservisler", "CQRS / Event Sourcing"]
+      },
+      {
+        "id": "messaging",
+        "label": "Mesajlaşma & Gerçek Zamanlı",
+        "items": ["RabbitMQ", "Apache Kafka", "Socket.IO", "Redis Pub/Sub", "Server-Sent Events"]
+      },
+      {
+        "id": "data",
+        "label": "Veri",
+        "items": ["PostgreSQL", "MSSQL", "MySQL", "MongoDB", "Redis", "DynamoDB"]
+      },
+      {
+        "id": "infra",
+        "label": "Altyapı",
+        "items": ["Docker", "Kubernetes", "Nginx", "Traefik", "CI/CD Pipeline'ları", "Linux Sunucu Operasyonları", "Cloudflare", "AWS"]
+      },
+      {
+        "id": "domain",
+        "label": "Alan Uzmanlığı",
+        "items": ["Fintech Sistemleri", "Ticaret Platformları", "Ödeme Altyapısı", "KYC Akışları", "Gerçek Zamanlı Piyasa Verisi", "Telemetri & IoT"]
+      },
+      {
+        "id": "frontend",
+        "label": "Frontend",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "REST & GraphQL Tüketimi"]
+      }
+    ]
+  },
+  "experience": {
+    "sectionLabel": "Deneyim",
+    "heading": "İş Geçmişi",
+    "roles": [
+      {
+        "title": "Backend Geliştirici / Teknik Lider",
+        "company": "Incodi Software Development",
+        "period": "Kas 2024 – Günümüz",
+        "bullets": [
+          "Self-servis ticaret ve operasyon platformu için backend mimarisi ve teknik yönün sahibi",
+          "MetaTrader 5, ödeme sağlayıcıları ve KYC akışlarını güvenilirlik ve sürdürülebilirlik odaklı entegre ettim",
+          ".NET, Redis, RabbitMQ ve Socket.IO ile gerçek zamanlı ve işlemsel servisler geliştirdim",
+          "Docker, Kubernetes ve CI/CD ile backend, dağıtım ve altyapı katmanlarında çalıştım"
+        ],
+        "tags": ["Fintech", "Ticaret", "Gerçek Zamanlı", "Dağıtık"]
+      },
+      {
+        "title": "Backend Geliştirici / Teknik Lider",
+        "company": "Yukatech AS",
+        "period": "Oca 2022 – Eki 2024",
+        "bullets": [
+          "Backend lead rolüne yükselerek RouteControl ve YukaTrack ürünlerinin backend teslimatını yönettim",
+          "Teltonika ikili ayrıştırma ve gerçek zamanlı coğrafi konum işleme ile telemetri alım pipeline'ı tasarladım",
+          "Go, Node.js, MongoDB, Redis, RabbitMQ ve gRPC kullanarak dağıtık backend bileşenleri uyguladım",
+          "Servis tasarımı, hata ayıklama ve dağıtım genelinde production odaklı backend çalışması yürüttüm"
+        ],
+        "tags": ["Gerçek Zamanlı", "IoT", "Dağıtık", "Go", "Node.js"]
+      },
+      {
+        "title": "Backend Geliştirici (Yarı Zamanlı)",
+        "company": "GoAction",
+        "period": "May 2022 – Şub 2023",
+        "bullets": [
+          "AWS Lambda, API Gateway, DynamoDB ve Node.js kullanan serverless ürün stack'ine katkı sağladım"
+        ],
+        "tags": ["Serverless", "AWS", "Node.js"]
+      },
+      {
+        "title": "Freelance Full Stack Geliştirici",
+        "company": "Bağımsız",
+        "period": "Eyl 2019 – Ara 2021",
+        "bullets": [
+          ".NET, Node.js, React, Python ve Laravel ile ticari projeler geliştirdim",
+          "Çeşitli müşteriler için entegrasyon ağırlıklı ve gerçek zamanlı uygulamalar teslim ettim"
+        ],
+        "tags": ["Full-Stack", ".NET", "Node.js", "React"]
+      }
+    ]
+  },
+  "writing": {
+    "sectionLabel": "Yazılar",
+    "heading": "Teknik Notlar",
+    "subheading": "Fintech, gerçek zamanlı ve dağıtık sistemler inşa etmekten edinilen mühendislik gözlemleri.",
+    "comingSoon": "Yakında",
+    "articles": [
+      {
+        "title": "Ölçekte Güvenilir WebSocket Altyapısı Tasarlamak",
+        "topic": "Gerçek Zamanlı Sistemler",
+        "description": "Yüksek eşzamanlılıklı socket sistemlerinde bağlantı yaşam döngüsü yönetimi, fan-out pattern'leri ve teslimat garantileri."
+      },
+      {
+        "title": "Bozulmayan Ödeme Entegrasyon Mimarisi",
+        "topic": "Fintech",
+        "description": "Ağ hatalarında ayakta duran ödeme akışları için idempotency, sağlayıcı soyutlaması ve webhook güvenilirliği."
+      },
+      {
+        "title": "Fintech Ürünlerinde Dağıtık Sistem Trade-off'ları",
+        "topic": "Mimari",
+        "description": "Sistem para ve uyumluluk durumunu işlerken tutarlılık, kullanılabilirlik ve bölünme toleransı kararları."
+      }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "İletişim",
+    "heading": "Konuşalım",
+    "body": "Fintech, gerçek zamanlı sistemler ve dağıtık mimarideki kıdemli backend, lead ve staff seviyesi rollere açığım. Teknik açıdan ilgi çekici veya operasyonel olarak karmaşık bir şey üzerinde çalışıyorsanız, duymak isterim.",
+    "email": "info@safaksonmez.com",
+    "links": {
+      "email": "E-posta",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "built": "Next.js ile yapıldı"
+  }
+}

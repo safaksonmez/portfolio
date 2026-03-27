@@ -1,0 +1,46 @@
+Şafak Sönmez
+Senior Backend Engineer
+
+Backend-focused engineer with hands-on full-stack delivery experience across fintech, real-time systems, and distributed architecture.
+
+PROFILE
+I design and build backend systems end-to-end, from architecture and implementation to deployment, reliability, and production operations. My work is centered on fintech, trading, payment systems, real-time data flows, and scalable distributed services built with .NET, Node.js, and Go. While my core strength is backend engineering, I also deliver full-stack work when product needs require it.
+
+CORE STRENGTHS
+- Backend architecture for integration-heavy, real-time, and distributed products
+- Fintech domain depth across trading, payments, KYC flows, and market-data integrations
+- Production ownership spanning APIs, messaging, caching, deployment, observability, and incident debugging
+- Backend-first mindset with practical full-stack delivery capability when needed
+
+EXPERIENCE
+Backend Developer / Technical Lead — Incodi Software Development
+Nov 2024 – Present
+- Own backend architecture and technical direction for a self-service trading and operations platform in a fintech environment.
+- Integrated external systems including MetaTrader 5, payment providers, and KYC-related flows with a focus on reliability and maintainability.
+- Built and maintained services with .NET, MSSQL, Entity Framework, Identity, Redis, RabbitMQ, and Socket.IO for transactional and real-time workloads.
+- Worked across backend, deployment, and operational layers using Docker, Kubernetes, Nginx, and CI/CD workflows.
+
+Backend Developer / Technical Lead — Yukatech AS
+Jan 2022 – Oct 2024
+- Progressed into a backend lead role and drove backend delivery for products including RouteControl and YukaTrack.
+- Designed services for GPS and telemetry workloads, including Teltonika binary parsing, geolocation processing, and route generation.
+- Implemented distributed backend components with Go, Node.js, MongoDB, Redis, RabbitMQ, MySQL, and gRPC.
+- Supported real-time product capabilities and production-focused backend work spanning service design, debugging, and deployment.
+
+Backend Developer (Part-Time) — GoAction
+May 2022 – Feb 2023
+- Contributed to a serverless product stack using AWS Lambda, API Gateway, DynamoDB, and Node.js.
+
+Freelance Full Stack Developer — Independent
+Sep 2019 – Dec 2021
+- Built commercial and personal software projects with .NET, Node.js, React, Python, and Laravel, including integration-heavy and real-time applications.
+
+TECHNOLOGIES
+Languages & Frameworks: .NET / ASP.NET Core, Node.js, Golang, Python, Laravel, React
+Data: MSSQL, PostgreSQL, MySQL, MongoDB, Redis, DynamoDB
+Messaging & Real-Time: RabbitMQ, Kafka, gRPC, Socket.IO, WebSockets
+Infrastructure: Docker, Kubernetes, Nginx, Traefik, CI/CD, Linux server operations, Cloudflare
+Domain: Fintech, trading systems, payment integrations, KYC flows, market data, telemetry
+
+TARGET ROLES
+Senior Backend Engineer • Lead Backend Engineer • Staff Backend Engineer • Technical Lead (backend/platform/fintech)

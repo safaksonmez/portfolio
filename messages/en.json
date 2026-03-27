@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "about": "About",
+    "work": "Work",
+    "skills": "Skills",
+    "experience": "Experience",
+    "writing": "Writing",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "name": "Şafak Sönmez",
+    "title": "Senior Backend Engineer",
+    "subtitle": "Fintech · Real-Time Systems · Distributed Architecture",
+    "tag": "Backend-first. Full-stack capable.",
+    "intro": "I design and build backend systems end-to-end — from architecture and implementation to deployment, reliability, and production operations. My focus is fintech, trading platforms, payment systems, and real-time distributed services.",
+    "cta": {
+      "contact": "Get in Touch",
+      "cv": "Download CV",
+      "work": "View Work"
+    }
+  },
+  "about": {
+    "sectionLabel": "About",
+    "heading": "Building systems that hold under pressure",
+    "body1": "My work is centered on backend systems that operate at scale — APIs handling high transaction volumes, distributed services processing real-time events, and fintech infrastructure where correctness is non-negotiable.",
+    "body2": "I own the full lifecycle: system design, implementation, infrastructure, observability, and production operations. I work in .NET, Node.js, and Go, and I understand the tradeoffs that matter when building distributed systems in regulated, latency-sensitive environments.",
+    "body3": "When the product demands it, I also deliver full-stack. But my strongest contribution is always at the system and backend layer — designing for reliability, scalability, and long-term maintainability.",
+    "stats": {
+      "years": "5+",
+      "yearsLabel": "Years Engineering",
+      "products": "3",
+      "productsLabel": "Production Systems",
+      "domains": "2",
+      "domainsLabel": "Core Domains"
+    },
+    "domains": {
+      "title": "Domain Focus",
+      "items": ["Fintech", "Trading Systems", "Payment Infrastructure", "Real-Time Data", "Distributed Architecture", "Telemetry & GPS"]
+    }
+  },
+  "work": {
+    "sectionLabel": "Selected Work",
+    "heading": "Case Studies",
+    "subheading": "A selection of systems I've designed, built, and operated in production.",
+    "projects": [
+      {
+        "id": "trading-platform",
+        "title": "Self-Service Trading Platform",
+        "domain": "Fintech · Trading",
+        "problem": "A fintech operator needed a scalable self-service platform handling live trading operations with MT5 integration, multi-provider payments, and KYC compliance flows — all with strict reliability requirements.",
+        "built": "Designed and implemented the backend architecture from scratch. Built trading execution services integrated with MetaTrader 5, payment provider connectors, and KYC verification pipelines. Implemented real-time event streams using Socket.IO and background job orchestration with RabbitMQ.",
+        "highlights": [
+          "MT5 integration with order lifecycle management",
+          "Multi-provider payment routing with reconciliation",
+          "KYC flow orchestration with audit trail",
+          "Real-time account and position streaming via WebSocket",
+          "Containerised deployment with Docker and Kubernetes"
+        ],
+        "impact": "Production system serving live trading operations. System architecture supports horizontal scaling and multi-region deployment readiness.",
+        "stack": [".NET", "ASP.NET Core", "MSSQL", "Redis", "RabbitMQ", "Socket.IO", "Docker", "Kubernetes", "Nginx"]
+      },
+      {
+        "id": "realtime-telemetry",
+        "title": "Real-Time Telemetry & Fleet Tracking Backend",
+        "domain": "Real-Time Systems · IoT",
+        "problem": "A fleet management product required a backend capable of ingesting binary telemetry from Teltonika GPS devices at high volume, processing location and route data in real time, and serving it to multiple client applications.",
+        "built": "Designed the telemetry ingestion pipeline including binary protocol parsing, geolocation processing, and route generation logic. Built distributed backend services with Go and Node.js, connected via RabbitMQ and gRPC for inter-service communication.",
+        "highlights": [
+          "Binary Teltonika protocol parser",
+          "High-throughput telemetry ingestion pipeline",
+          "Real-time geolocation and route computation",
+          "gRPC-based inter-service communication",
+          "Redis-backed hot state for active vehicle tracking"
+        ],
+        "impact": "Handled tracking for a growing fleet product serving enterprise customers. Sub-second latency for live vehicle position updates across connected clients.",
+        "stack": ["Go", "Node.js", "MongoDB", "Redis", "RabbitMQ", "gRPC", "MySQL", "Docker"]
+      },
+      {
+        "id": "payment-infra",
+        "title": "Payment & KYC Integration Layer",
+        "domain": "Fintech · Payments",
+        "problem": "Financial products require reliable, auditable integrations with third-party payment providers and identity verification services. Integration failures or data inconsistencies in these flows carry direct financial and compliance risk.",
+        "built": "Built a modular payment integration layer with provider abstraction, idempotent transaction handling, and event-sourced audit trails. Implemented KYC orchestration with document verification workflows and compliance state machines.",
+        "highlights": [
+          "Provider-agnostic payment abstraction layer",
+          "Idempotent transaction processing",
+          "Webhook ingestion with at-least-once delivery guarantees",
+          "KYC state machine with document lifecycle management",
+          "Full audit log for regulatory traceability"
+        ],
+        "impact": "Enabled the platform to onboard multiple payment providers and KYC vendors without core service changes. Zero unrecovered transaction failures in production.",
+        "stack": [".NET", "ASP.NET Core", "MSSQL", "Entity Framework", "RabbitMQ", "Redis", "Docker"]
+      },
+      {
+        "id": "serverless-api",
+        "title": "Serverless API Platform",
+        "domain": "Cloud Infrastructure · Backend",
+        "problem": "A product team needed a cost-efficient, low-operational-overhead backend API that could scale automatically and integrate tightly with AWS managed services.",
+        "built": "Contributed to a serverless backend using AWS Lambda with API Gateway, DynamoDB for primary storage, and event-driven architecture for async processing. Focused on function design, cold start optimization, and service integration patterns.",
+        "highlights": [
+          "Lambda function design with cold-start mitigation",
+          "DynamoDB access patterns and single-table design",
+          "API Gateway integration with request validation",
+          "Event-driven async processing",
+          "Infrastructure-as-code deployment"
+        ],
+        "impact": "Production API serving customer-facing product features. Reduced operational overhead compared to managed VM deployments with pay-per-use scaling.",
+        "stack": ["Node.js", "AWS Lambda", "API Gateway", "DynamoDB", "AWS SNS/SQS"]
+      }
+    ],
+    "labels": {
+      "problem": "Problem",
+      "built": "What I Built",
+      "highlights": "Technical Highlights",
+      "impact": "Impact",
+      "stack": "Stack"
+    }
+  },
+  "skills": {
+    "sectionLabel": "Skills",
+    "heading": "Technical Stack",
+    "subheading": "Core capabilities, grouped by function.",
+    "groups": [
+      {
+        "id": "languages",
+        "label": "Languages & Frameworks",
+        "items": [".NET / ASP.NET Core", "Node.js", "Golang", "Python", "Laravel", "React / Next.js"]
+      },
+      {
+        "id": "backend",
+        "label": "Backend & Architecture",
+        "items": ["REST API Design", "gRPC", "WebSockets", "Event-Driven Architecture", "Microservices", "CQRS / Event Sourcing"]
+      },
+      {
+        "id": "messaging",
+        "label": "Messaging & Real-Time",
+        "items": ["RabbitMQ", "Apache Kafka", "Socket.IO", "Redis Pub/Sub", "Server-Sent Events"]
+      },
+      {
+        "id": "data",
+        "label": "Data",
+        "items": ["PostgreSQL", "MSSQL", "MySQL", "MongoDB", "Redis", "DynamoDB"]
+      },
+      {
+        "id": "infra",
+        "label": "Infrastructure",
+        "items": ["Docker", "Kubernetes", "Nginx", "Traefik", "CI/CD Pipelines", "Linux Server Ops", "Cloudflare", "AWS"]
+      },
+      {
+        "id": "domain",
+        "label": "Domain Expertise",
+        "items": ["Fintech Systems", "Trading Platforms", "Payment Infrastructure", "KYC Flows", "Real-Time Market Data", "Telemetry & IoT"]
+      },
+      {
+        "id": "frontend",
+        "label": "Frontend",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "REST & GraphQL Consumption"]
+      }
+    ]
+  },
+  "experience": {
+    "sectionLabel": "Experience",
+    "heading": "Work History",
+    "roles": [
+      {
+        "title": "Backend Developer / Technical Lead",
+        "company": "Incodi Software Development",
+        "period": "Nov 2024 – Present",
+        "bullets": [
+          "Own backend architecture and technical direction for a self-service trading and operations platform",
+          "Integrated MetaTrader 5, payment providers, and KYC flows with focus on reliability and maintainability",
+          "Built real-time and transactional services with .NET, Redis, RabbitMQ, and Socket.IO",
+          "Operated across backend, deployment, and infrastructure layers with Docker, Kubernetes, and CI/CD"
+        ],
+        "tags": ["Fintech", "Trading", "Real-Time", "Distributed"]
+      },
+      {
+        "title": "Backend Developer / Technical Lead",
+        "company": "Yukatech AS",
+        "period": "Jan 2022 – Oct 2024",
+        "bullets": [
+          "Progressed to backend lead role driving delivery for RouteControl and YukaTrack products",
+          "Designed telemetry ingestion pipeline with Teltonika binary parsing and real-time geolocation processing",
+          "Implemented distributed backend components using Go, Node.js, MongoDB, Redis, RabbitMQ, and gRPC",
+          "Supported production-focused backend work across service design, debugging, and deployment"
+        ],
+        "tags": ["Real-Time", "IoT", "Distributed", "Go", "Node.js"]
+      },
+      {
+        "title": "Backend Developer (Part-Time)",
+        "company": "GoAction",
+        "period": "May 2022 – Feb 2023",
+        "bullets": [
+          "Contributed to a serverless product stack using AWS Lambda, API Gateway, DynamoDB, and Node.js"
+        ],
+        "tags": ["Serverless", "AWS", "Node.js"]
+      },
+      {
+        "title": "Freelance Full Stack Developer",
+        "company": "Independent",
+        "period": "Sep 2019 – Dec 2021",
+        "bullets": [
+          "Built commercial projects with .NET, Node.js, React, Python, and Laravel",
+          "Delivered integration-heavy and real-time applications for various clients"
+        ],
+        "tags": ["Full-Stack", ".NET", "Node.js", "React"]
+      }
+    ]
+  },
+  "writing": {
+    "sectionLabel": "Writing",
+    "heading": "Technical Notes",
+    "subheading": "Engineering observations from building fintech, real-time, and distributed systems.",
+    "comingSoon": "Coming soon",
+    "articles": [
+      {
+        "title": "Designing Reliable WebSocket Infrastructure at Scale",
+        "topic": "Real-Time Systems",
+        "description": "Connection lifecycle management, fan-out patterns, and ensuring delivery guarantees in high-concurrency socket systems."
+      },
+      {
+        "title": "Payment Integration Architecture That Doesn't Break",
+        "topic": "Fintech",
+        "description": "Idempotency, provider abstraction, webhook reliability, and building payment flows that hold under network failures."
+      },
+      {
+        "title": "Distributed Systems Tradeoffs in Fintech Products",
+        "topic": "Architecture",
+        "description": "Consistency, availability, and partition tolerance decisions when the system handles money and compliance state."
+      }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "heading": "Let's Talk",
+    "body": "I'm open to senior backend, lead, and staff-level roles in fintech, real-time systems, and distributed architecture. If you're working on something technically interesting or operationally complex, I'd like to hear about it.",
+    "email": "info@safaksonmez.com",
+    "links": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "built": "Built with Next.js"
+  }
+}
