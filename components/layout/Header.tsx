@@ -11,7 +11,6 @@ const NAV_ITEMS = [
   { key: "work", href: "#work" },
   { key: "skills", href: "#skills" },
   { key: "experience", href: "#experience" },
-  { key: "writing", href: "#writing" },
   { key: "contact", href: "#contact" },
 ] as const;
 
@@ -71,8 +70,8 @@ export function Header() {
           <LanguageSwitcher />
           <ThemeToggle />
           <a
-            href="/cv.pdf"
-            download
+            href="/Safak_Sonmez_CV.pdf"
+            download="Safak_Sonmez_CV.pdf"
             className="flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md bg-zinc-800 hover:bg-zinc-700 text-zinc-200 transition-colors border border-zinc-700 hover:border-zinc-600"
           >
             <Download size={12} strokeWidth={2} />
@@ -106,8 +105,8 @@ export function Header() {
             <LanguageSwitcher />
             <ThemeToggle />
             <a
-              href="/cv.pdf"
-              download
+              href="/Safak_Sonmez_CV.pdf"
+              download="Safak_Sonmez_CV.pdf"
               className="flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md bg-zinc-800 text-zinc-200 border border-zinc-700"
             >
               <Download size={12} strokeWidth={2} />

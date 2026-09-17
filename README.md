@@ -103,12 +103,12 @@ Add an entry to `writing.articles` in all three language files.
 
 ## CV Download
 
-Place `cv.pdf` in `public/cv.pdf`. The "Download CV" button links to `/cv.pdf`.
+Place `Safak_Sonmez_CV.pdf` in `public/Safak_Sonmez_CV.pdf`. The "Download CV" button links to `/Safak_Sonmez_CV.pdf`.
 
-The existing CV files (`Safak_Sonmez_CV.pdf`) can be copied:
+The root CV file (`Safak_Sonmez_CV.pdf`) can be copied:
 
 ```bash
-cp Safak_Sonmez_CV.pdf public/cv.pdf
+cp Safak_Sonmez_CV.pdf public/Safak_Sonmez_CV.pdf
 ```
 
 ## Theme

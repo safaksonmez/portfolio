@@ -82,8 +82,8 @@ export function Hero() {
           </button>
 
           <a
-            href="/cv.pdf"
-            download
+            href="/Safak_Sonmez_CV.pdf"
+            download="Safak_Sonmez_CV.pdf"
             className="flex items-center gap-2 px-5 py-2.5 bg-transparent border border-zinc-700 dark:border-zinc-700 light:border-zinc-300 hover:border-zinc-500 dark:hover:border-zinc-500 light:hover:border-zinc-400 text-zinc-300 dark:text-zinc-300 light:text-zinc-600 hover:text-zinc-100 dark:hover:text-zinc-100 light:hover:text-zinc-800 font-medium text-sm rounded-md transition-all duration-200"
           >
             <Download size={14} strokeWidth={2} />
@@ -104,7 +104,7 @@ export function Hero() {
           <span className="text-xs text-zinc-600 dark:text-zinc-600 light:text-zinc-400 font-mono uppercase tracking-wider">
             Stack:
           </span>
-          {[".NET", "Go", "Node.js", "Kubernetes", "RabbitMQ", "Redis"].map(
+          {[".NET", "Go", "Rust", "Kafka", "GraphQL", "Kubernetes"].map(
             (tech) => (
               <span
                 key={tech}

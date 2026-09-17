@@ -10,10 +10,10 @@
   },
   "hero": {
     "name": "Şafak Sönmez",
-    "title": "Kıdemli Backend Mühendisi",
-    "subtitle": "Fintech · Gerçek Zamanlı Sistemler · Dağıtık Mimari",
-    "tag": "Backend odaklı. Full-stack yetkin.",
-    "intro": "Backend sistemleri uçtan uca tasarlayıp inşa ediyorum — mimariden implementasyona, dağıtımdan production operasyonlarına kadar. Odağım fintech, ticaret platformları, ödeme sistemleri ve gerçek zamanlı dağıtık servisler.",
+    "title": "Kıdemli Backend Mühendisi / Teknik Lider",
+    "subtitle": "Fintech · Yüksek Throughput Sistemler · Dağıtık & Gerçek Zamanlı Platformlar",
+    "tag": "Para ve veriyi yüksek hızda taşıyan sistemlerde production sahipliği.",
+    "intro": "Throughput, doğruluk ve uptime'ın kritik olduğu fintech ve gerçek zamanlı ürünler için backend platformları tasarlıyor, inşa ediyor ve production'da sahipleniyorum. Çalışmalarım trading ve custody sistemlerinden yüksek hacimli telemetri pipeline'larına, dağıtık servis mimarisinden greenfield teslimat ve ölçekleme operasyonlarına uzanıyor.",
     "cta": {
       "contact": "İletişime Geç",
       "cv": "CV İndir",
@@ -23,16 +23,16 @@
   "about": {
     "sectionLabel": "Hakkımda",
     "heading": "Baskı altında ayakta duran sistemler inşa ediyorum",
-    "body1": "Çalışmalarım yüksek hacimli işlemleri karşılayan API'lar, gerçek zamanlı olayları işleyen dağıtık servisler ve doğruluğun tartışılmaz olduğu fintech altyapısı üzerinde yoğunlaşıyor.",
-    "body2": "Tam yaşam döngüsüne sahibim: sistem tasarımı, implementasyon, altyapı, gözlemlenebilirlik ve production operasyonları. .NET, Node.js ve Go ile çalışıyorum; regüle, gecikmeye duyarlı ortamlarda dağıtık sistem inşa ederken önemli olan trade-off'ları anlıyorum.",
+    "body1": "Çalışmalarım gerçek baskı altında çalışan backend sistemleri üzerinde yoğunlaşıyor: fintech API'ları, trading ve custody akışları, gerçek zamanlı event işleyen dağıtık servisler ve throughput ile doğruluğun birlikte kritik olduğu telemetri pipeline'ları.",
+    "body2": "Tam yaşam döngüsüne sahibim: sistem tasarımı, implementasyon, altyapı, gözlemlenebilirlik ve production operasyonları. .NET, Go, Node.js, Rust ve Python ile çalışıyorum; regüle, gecikmeye duyarlı ortamlarda dağıtık sistem inşa ederken önemli olan trade-off'ları anlıyorum.",
     "body3": "Ürün gerektirdiğinde full-stack da teslim ederim. Ancak en güçlü katkım her zaman sistem ve backend katmanında — güvenilirlik, ölçeklenebilirlik ve uzun vadeli sürdürülebilirlik için tasarım yapıyorum.",
     "stats": {
-      "years": "5+",
-      "yearsLabel": "Yıl Mühendislik",
-      "products": "3",
-      "productsLabel": "Production Sistemi",
-      "domains": "2",
-      "domainsLabel": "Temel Alan"
+      "years": "7+",
+      "yearsLabel": "Yıl Backend Mühendisliği",
+      "products": "10x",
+      "productsLabel": "Throughput İyileştirmesi",
+      "domains": "10.000/sn",
+      "domainsLabel": "Trade Processing Hedefi"
     },
     "domains": {
       "title": "Uzmanlık Alanları",
@@ -48,24 +48,25 @@
         "id": "trading-platform",
         "title": "Self-Servis Ticaret Platformu",
         "domain": "Fintech · Ticaret",
-        "problem": "Bir fintech operatörü, MT5 entegrasyonu, çok sağlayıcılı ödemeler ve KYC uyumluluk akışlarıyla canlı ticaret operasyonlarını yöneten, yüksek güvenilirlik gereksinimleri olan ölçeklenebilir bir self-servis platform ihtiyacı duyuyordu.",
-        "built": "Backend mimarisini sıfırdan tasarlayıp uyguladım. MetaTrader 5 entegre ticaret yürütme servisleri, ödeme sağlayıcı bağlantıları ve KYC doğrulama pipeline'ları geliştirdim. Socket.IO ile gerçek zamanlı event stream'leri ve RabbitMQ ile arka plan iş orkestrasyonu uyguladım.",
+        "problem": "Bir fintech operatörünün canlı ticaret operasyonları, MT5 entegrasyonu, çok sağlayıcılı ödemeler, KYC uyumluluğu ve güvenilir müşteri/hesap provisioning için production'a hazır self-servis platforma ihtiyacı vardı.",
+        "built": "Trading operasyonları, MetaTrader 5 akışları, ödeme sağlayıcı entegrasyonları, KYC orkestrasyonu ve gerçek zamanlı hesap durumu için backend servisleri tasarlayıp uyguladım. RabbitMQ ile event-driven workflow'lar, Redis destekli sıcak durum, Socket.IO stream'leri ve Docker/Kubernetes üzerinde production dağıtımı geliştirdim.",
         "highlights": [
           "Emir yaşam döngüsü yönetimiyle MT5 entegrasyonu",
           "Mutabakat içeren çok sağlayıcılı ödeme yönlendirmesi",
           "Denetim izi ile KYC akış orkestrasyonu",
           "WebSocket üzerinden gerçek zamanlı hesap ve pozisyon akışı",
-          "Docker ve Kubernetes ile container tabanlı dağıtım"
+          "Docker ve Kubernetes ile container tabanlı dağıtım",
+          "Kafka-ready mesajlaşma, CQRS/Event Sourcing ve GraphQL servisleri dahil production pattern'leri"
         ],
-        "impact": "Canlı ticaret operasyonlarına hizmet eden production sistemi. Mimari yatay ölçekleme ve çok bölgeli dağıtım hazırlığını destekliyor.",
-        "stack": [".NET", "ASP.NET Core", "MSSQL", "Redis", "RabbitMQ", "Socket.IO", "Docker", "Kubernetes", "Nginx"]
+        "impact": "Trading, ödeme ve KYC workflow'larında güvenilirlik, denetlenebilirlik ve ölçek hazırlığına net sahiplik getirerek karmaşık bir fintech operasyon yüzeyini production'a taşıdı.",
+        "stack": [".NET", "ASP.NET Core", "MSSQL", "Redis", "RabbitMQ", "Kafka", "CQRS", "Event Sourcing", "GraphQL", "Socket.IO", "Docker", "Kubernetes", "Nginx"]
       },
       {
         "id": "realtime-telemetry",
         "title": "Gerçek Zamanlı Telemetri & Filo Takip Backend'i",
         "domain": "Gerçek Zamanlı Sistemler · IoT",
-        "problem": "Bir filo yönetim ürünü, Teltonika GPS cihazlarından yüksek hacimde ikili telemetri verisini alabilen, konum ve rota verilerini gerçek zamanlı işleyen ve birden fazla istemci uygulamasına sunabilen bir backend gerektiriyordu.",
-        "built": "İkili protokol ayrıştırma, coğrafi konum işleme ve rota oluşturma mantığı dahil telemetri alım pipeline'ını tasarladım. Go ve Node.js ile servisler arası iletişim için RabbitMQ ve gRPC kullanan dağıtık backend servisleri geliştirdim.",
+        "problem": "Bir filo yönetim ürününün Teltonika GPS telemetrisini daha yüksek hacimde alması, canlı konum/rota verisini işlemesi ve Node.js pipeline'ının throughput sınırına takılmadan birden fazla istemciye servis etmesi gerekiyordu.",
+        "built": "İkili protokol ayrıştırma, coğrafi konum işleme ve rota oluşturma mantığı dahil telemetri alım pipeline'ını tasarladım. Kritik ingestion yollarını Node.js'ten Go'ya taşıdım; dağıtık servisleri RabbitMQ, gRPC, Redis ve MongoDB ile bağladım.",
         "highlights": [
           "İkili Teltonika protokol ayrıştırıcı",
           "Yüksek throughput telemetri alım pipeline'ı",
@@ -73,15 +74,15 @@
           "gRPC tabanlı servisler arası iletişim",
           "Aktif araç takibi için Redis destekli sıcak durum"
         ],
-        "impact": "Kurumsal müşterilere hizmet eden büyüyen filo ürünü için takip sağladı. Bağlı istemciler genelinde canlı araç pozisyon güncellemeleri için milisaniye altı gecikme.",
+        "impact": "Telemetri işleme kapasitesini yaklaşık 80 kayıttan yaklaşık 800 kayıt/sn seviyesine çıkararak 10x throughput iyileştirmesi sağladı ve kurumsal filo müşterileri için canlı araç güncellemelerini responsive tuttu.",
         "stack": ["Go", "Node.js", "MongoDB", "Redis", "RabbitMQ", "gRPC", "MySQL", "Docker"]
       },
       {
         "id": "payment-infra",
         "title": "Ödeme & KYC Entegrasyon Katmanı",
         "domain": "Fintech · Ödemeler",
-        "problem": "Finansal ürünler, üçüncü taraf ödeme sağlayıcıları ve kimlik doğrulama servisleriyle güvenilir, denetlenebilir entegrasyonlar gerektirir. Bu akışlardaki entegrasyon hataları veya veri tutarsızlıkları doğrudan finansal ve uyumluluk riski taşır.",
-        "built": "Sağlayıcı soyutlama, idempotent işlem yönetimi ve event-sourced denetim izleriyle modüler bir ödeme entegrasyon katmanı geliştirdim. Belge doğrulama workflow'ları ve uyumluluk durum makineleri ile KYC orkestrasyonu uyguladım.",
+        "problem": "Finansal ürünler kimlik doğrulama, müşteri provisioning, hesap açılışı, deposit/withdrawal, balance, statement ve B2B akışları için güvenilir ve denetlenebilir entegrasyonlar gerektirir. Bu yollardaki hatalar doğrudan finansal ve uyumluluk riski taşır.",
+        "built": "Sağlayıcı soyutlama, idempotent işlem yönetimi, event-sourced denetim izleri ve compliance state machine'leriyle modüler ödeme ve KYC servisleri geliştirdim. Exchange ve custody workflow'ları için Django multi-tenant KYC ve account/customer provisioning pattern'lerini destekledim.",
         "highlights": [
           "Sağlayıcıdan bağımsız ödeme soyutlama katmanı",
           "Idempotent işlem işleme",
@@ -89,8 +90,8 @@
           "Belge yaşam döngüsü yönetimi ile KYC durum makinesi",
           "Yasal izlenebilirlik için tam denetim günlüğü"
         ],
-        "impact": "Platform, temel servis değişikliği olmadan birden fazla ödeme sağlayıcısı ve KYC satıcısı ekleyebildi. Production'da sıfır kurtarılamayan işlem hatası.",
-        "stack": [".NET", "ASP.NET Core", "MSSQL", "Entity Framework", "RabbitMQ", "Redis", "Docker"]
+        "impact": "Sağlayıcı karmaşıklığını denetlenebilir backend akışlarının arkasına alarak exchange, custody ve B2B finans operasyonlarında entegrasyon riskini azalttı.",
+        "stack": ["Django", ".NET", "ASP.NET Core", "MSSQL", "Entity Framework", "RabbitMQ", "Redis", "Docker"]
       },
       {
         "id": "serverless-api",
@@ -105,7 +106,7 @@
           "Event-driven asenkron işleme",
           "Kod olarak altyapı dağıtımı"
         ],
-        "impact": "Müşteri arayüzü ürün özelliklerine hizmet eden production API. Yönetilen VM dağıtımlarına kıyasla düşük operasyonel yük ve kullandıkça öde ölçekleme.",
+        "impact": "Müşteri arayüzü API kabiliyetlerini yönetilen VM dağıtımlarına kıyasla daha düşük operasyonel yükle ve değişken production trafiğine uygun ölçekleme modeliyle teslim etti.",
         "stack": ["Node.js", "AWS Lambda", "API Gateway", "DynamoDB", "AWS SNS/SQS"]
       }
     ],
@@ -125,17 +126,17 @@
       {
         "id": "languages",
         "label": "Diller & Framework'ler",
-        "items": [".NET / ASP.NET Core", "Node.js", "Golang", "Python", "Laravel", "React / Next.js"]
+        "items": [".NET / ASP.NET Core", "Go", "Node.js", "Rust", "Python", "Django", "Laravel", "React / Next.js"]
       },
       {
         "id": "backend",
         "label": "Backend & Mimari",
-        "items": ["REST API Tasarımı", "gRPC", "WebSockets", "Event-Driven Mimari", "Microservisler", "CQRS / Event Sourcing"]
+        "items": ["REST API Tasarımı", "GraphQL API'ları", "gRPC", "WebSockets", "Event-Driven Mimari", "Microservisler", "CQRS / Event Sourcing"]
       },
       {
         "id": "messaging",
         "label": "Mesajlaşma & Gerçek Zamanlı",
-        "items": ["RabbitMQ", "Apache Kafka", "Socket.IO", "Redis Pub/Sub", "Server-Sent Events"]
+        "items": ["RabbitMQ", "Apache Kafka", "Socket.IO", "MQTT", "Redis Pub/Sub", "Server-Sent Events"]
       },
       {
         "id": "data",
@@ -168,12 +169,13 @@
         "company": "Incodi Software Development",
         "period": "Kas 2024 – Günümüz",
         "bullets": [
-          "Self-servis ticaret ve operasyon platformu için backend mimarisi ve teknik yönün sahibi",
-          "MetaTrader 5, ödeme sağlayıcıları ve KYC akışlarını güvenilirlik ve sürdürülebilirlik odaklı entegre ettim",
-          ".NET, Redis, RabbitMQ ve Socket.IO ile gerçek zamanlı ve işlemsel servisler geliştirdim",
-          "Docker, Kubernetes ve CI/CD ile backend, dağıtım ve altyapı katmanlarında çalıştım"
+          "Exchange, custody, derivatives ve canlı operasyonları kapsayan fintech platformlarında backend mimarisi ve teknik yönün sahibiyim",
+          "Bitexen Exchange/Custody için Django multi-tenant KYC, account/customer provisioning, deposit, withdrawal, balance, statement ve B2B akışları geliştirdim",
+          "Bitexen Derivatives için 10.000 trade/sn hedefle tasarlanan Rust streaming mimarisi ve MetaTrader 5 operasyonel akışları üzerinde çalıştım",
+          "RideOn/DriveOn'u greenfield aşamadan production'a taşıyan MQTT/live telemetry, React Native, Docker, Kubernetes ve CI/CD sahipliği üstlendim",
+          ".NET, Redis, RabbitMQ, Kafka, CQRS/Event Sourcing, GraphQL ve Socket.IO ile production-level gerçek zamanlı ve işlemsel servisler geliştirdim"
         ],
-        "tags": ["Fintech", "Ticaret", "Gerçek Zamanlı", "Dağıtık"]
+        "tags": ["Fintech", "Trading", "Custody", "Derivatives", "Gerçek Zamanlı", "Dağıtık"]
       },
       {
         "title": "Backend Geliştirici / Teknik Lider",
@@ -182,6 +184,7 @@
         "bullets": [
           "Backend lead rolüne yükselerek RouteControl ve YukaTrack ürünlerinin backend teslimatını yönettim",
           "Teltonika ikili ayrıştırma ve gerçek zamanlı coğrafi konum işleme ile telemetri alım pipeline'ı tasarladım",
+          "Kritik telemetri ingestion yolunu Node.js'ten Go'ya taşıyarak kapasiteyi yaklaşık 80 kayıttan yaklaşık 800 telemetri kaydı/sn seviyesine çıkardım",
           "Go, Node.js, MongoDB, Redis, RabbitMQ ve gRPC kullanarak dağıtık backend bileşenleri uyguladım",
           "Servis tasarımı, hata ayıklama ve dağıtım genelinde production odaklı backend çalışması yürüttüm"
         ],
@@ -234,7 +237,7 @@
   "contact": {
     "sectionLabel": "İletişim",
     "heading": "Konuşalım",
-    "body": "Fintech, gerçek zamanlı sistemler ve dağıtık mimarideki kıdemli backend, lead ve staff seviyesi rollere açığım. Teknik açıdan ilgi çekici veya operasyonel olarak karmaşık bir şey üzerinde çalışıyorsanız, duymak isterim.",
+    "body": "Fintech, yüksek throughput sistemler, dağıtık mimari ve gerçek zamanlı production platformlarına odaklanan Senior Backend Engineer, Technical Lead ve staff-track backend/platform rollerine açığım. Güvenilirlik, throughput ve sahiplik önemliyse konuşmak isterim.",
     "email": "info@safaksonmez.com",
     "links": {
       "email": "E-posta",
