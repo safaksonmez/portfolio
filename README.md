@@ -1,6 +1,6 @@
 # Şafak Sönmez — Portfolio
 
-Personal portfolio site for a Senior Backend Engineer. Built with Next.js 16, TypeScript, Tailwind CSS v4, and next-intl.
+Personal portfolio site for a Senior Software Developer. Built with Next.js 16, TypeScript, Tailwind CSS v4, and next-intl.
 
 ## Stack
 

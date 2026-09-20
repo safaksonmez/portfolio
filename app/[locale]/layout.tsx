@@ -31,9 +31,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "hero" });
 
   const descriptions: Record<string, string> = {
-    en: "Senior Backend Engineer / Technical Lead for fintech, high-throughput systems, distributed platforms, and production-owned real-time infrastructure.",
-    tr: "Fintech, yüksek throughput sistemleri, dağıtık platformlar ve production sahipliği gerektiren gerçek zamanlı altyapılar için Kıdemli Backend Mühendisi / Teknik Lider.",
-    ar: "مهندس خلفية برمجية أول / قائد تقني لمنصات التكنولوجيا المالية والأنظمة عالية الإنتاجية والبنية الموزعة والفورية في الإنتاج.",
+    en: "Senior Software Developer / Technical Lead for fintech, high-throughput systems, distributed platforms, and production-owned real-time infrastructure.",
+    tr: "Fintech, yüksek throughput sistemleri, dağıtık platformlar ve production sahipliği gerektiren gerçek zamanlı altyapılar için Kıdemli Yazılım Geliştirici / Teknik Lider.",
+    ar: "مطوّر برمجيات أول / قائد تقني لمنصات التكنولوجيا المالية والأنظمة عالية الإنتاجية والبنية الموزعة والفورية في الإنتاج.",
   };
 
   return {

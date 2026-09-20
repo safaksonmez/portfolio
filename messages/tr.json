@@ -10,7 +10,7 @@
   },
   "hero": {
     "name": "Şafak Sönmez",
-    "title": "Kıdemli Backend Mühendisi / Teknik Lider",
+    "title": "Kıdemli Yazılım Geliştirici / Teknik Lider",
     "subtitle": "Fintech · Yüksek Throughput Sistemler · Dağıtık & Gerçek Zamanlı Platformlar",
     "tag": "Para ve veriyi yüksek hızda taşıyan sistemlerde production sahipliği.",
     "intro": "Throughput, doğruluk ve uptime'ın kritik olduğu fintech ve gerçek zamanlı ürünler için backend platformları tasarlıyor, inşa ediyor ve production'da sahipleniyorum. Çalışmalarım trading ve custody sistemlerinden yüksek hacimli telemetri pipeline'larına, dağıtık servis mimarisinden greenfield teslimat ve ölçekleme operasyonlarına uzanıyor.",
@@ -237,7 +237,7 @@
   "contact": {
     "sectionLabel": "İletişim",
     "heading": "Konuşalım",
-    "body": "Fintech, yüksek throughput sistemler, dağıtık mimari ve gerçek zamanlı production platformlarına odaklanan Senior Backend Engineer, Technical Lead ve staff-track backend/platform rollerine açığım. Güvenilirlik, throughput ve sahiplik önemliyse konuşmak isterim.",
+    "body": "Fintech, yüksek throughput sistemler, dağıtık mimari ve gerçek zamanlı production platformlarına odaklanan Senior Software Developer, Technical Lead ve staff-track backend/platform rollerine açığım. Güvenilirlik, throughput ve sahiplik önemliyse konuşmak isterim.",
     "email": "info@safaksonmez.com",
     "links": {
       "email": "E-posta",

@@ -10,7 +10,7 @@
   },
   "hero": {
     "name": "Şafak Sönmez",
-    "title": "Senior Backend Engineer / Technical Lead",
+    "title": "Senior Software Developer / Technical Lead",
     "subtitle": "Fintech · High-Throughput Systems · Distributed & Real-Time Platforms",
     "tag": "Production ownership for systems that move money and data at speed.",
     "intro": "I design, build, and own backend platforms for fintech and real-time products where throughput, correctness, and uptime matter. My work spans trading and custody systems, high-volume telemetry pipelines, distributed service architecture, and production operations from greenfield delivery to scale-up.",
@@ -237,7 +237,7 @@
   "contact": {
     "sectionLabel": "Contact",
     "heading": "Let's Talk",
-    "body": "I'm open to Senior Backend Engineer, Technical Lead, and staff-track backend/platform roles focused on fintech, high-throughput systems, distributed architecture, and real-time production platforms. If reliability, throughput, and ownership matter, I'd like to hear about it.",
+    "body": "I'm open to Senior Software Developer, Technical Lead, and staff-track backend/platform roles focused on fintech, high-throughput systems, distributed architecture, and real-time production platforms. If reliability, throughput, and ownership matter, I'd like to hear about it.",
     "email": "info@safaksonmez.com",
     "links": {
       "email": "Email",
